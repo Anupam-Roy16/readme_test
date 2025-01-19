@@ -30,7 +30,7 @@
     USER=postgres
     PASSWORD="your-password"
     PORT=5432
-    DATABASE=sq_db
+    DATABASE="your db name" 
     HOST=localhost
     SCHEMA_NAME=sq_db_test
     LOGS_DIR="your logs foder path"
