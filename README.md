@@ -35,8 +35,7 @@
     SCHEMA_NAME=sq_db_test
     LOGS_DIR="your logs foder path"
     
-4. Set up PostgreSQL database:
-  - Make sure PostgreSQL is installed and running
+4. Make sure PostgreSQL is installed and running
 
 5. Run setup.py and Install required packages:
    ```bash
