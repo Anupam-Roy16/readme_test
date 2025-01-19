@@ -9,15 +9,9 @@
    git checkout
    ll
    ```
+2. Upload credentials file in `dev02` folder:
 
-2. Run setup.py and Install required packages:
-   ```bash
-    pip install -e .
-   ```
-
-3. Upload credentials file in `dev02` folder:
-
-4. Create a ".env" named file in bot folder:
+3. Create a ".env" named file in bot folder:
    ```python
     BOT_SESSION_NAME=Guru_Sevak
     CREDENTIAL_FILE="your creadentials file path"
@@ -41,8 +35,13 @@
     SCHEMA_NAME=sq_db_test
     LOGS_DIR="your logs foder path"
     
-5. Set up PostgreSQL database:
+4. Set up PostgreSQL database:
   - Make sure PostgreSQL is installed and running
+
+5. Run setup.py and Install required packages:
+   ```bash
+    pip install -e .
+   ```
 6. Initialize the database:
    ```bash
    python Initialize_system.py
