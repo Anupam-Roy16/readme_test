@@ -9,7 +9,7 @@
    git checkout
    ll
    ```
-2. Upload credentials file in `dev02` folder:
+2. Upload your credentials file in `dev02` folder:
 
 3. Create a ".env" named file in bot folder:
    ```python
