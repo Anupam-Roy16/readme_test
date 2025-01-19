@@ -15,11 +15,9 @@
     pip install -e .
    ```
 
-3. Set up PostgreSQL database:
-   - Make sure PostgreSQL is installed and running
-   - Upload database credentials in `dev02` folder
+3. Upload credentials file in `dev02` folder:
 
-3. Create a ".env" named file in bot folder:
+4. Create a ".env" named file in bot folder:
    ```python
     BOT_SESSION_NAME=Guru_Sevak
     CREDENTIAL_FILE="your creadentials file path"
@@ -43,12 +41,13 @@
     SCHEMA_NAME=sq_db_test
     LOGS_DIR="your logs foder path"
     
-
-4. Initialize the database:
+5. Set up PostgreSQL database:
+  - Make sure PostgreSQL is installed and running
+6. Initialize the database:
    ```bash
    python Initialize_system.py
    ```
-2. After database setup is complete, start the bot:
+7. After database setup is complete, start the bot:
    ```bash
    python run_bot.py
    ```
